@@ -1,0 +1,113 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+    transition: background-color 0.5s ease;
+  }
+  
+  .weather-app-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+    transition: background-color 0.5s ease;
+  }
+  
+  /* Dynamic backgrounds */
+  .sunny-bg {
+    background: linear-gradient(to top, #ffe259, #ffa751);
+  }
+  
+  .rainy-bg {
+    background: linear-gradient(to top, #00c6fb, #005bea);
+  }
+  
+  .cloudy-bg {
+    background: linear-gradient(to top, #d3cce3, #e9e4f0);
+  }
+  
+  .snowy-bg {
+    background: linear-gradient(to top, #e6e9f0, #eef1f5);
+  }
+  
+  .stormy-bg {
+    background: linear-gradient(to top, #1e3c72, #2a5298);
+  }
+  
+  .default-bg {
+    background: linear-gradient(to top, #bdc3c7, #2c3e50);
+  }
+  
+  /* Weather card styles */
+  .content-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  .app-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .city-input {
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+  }
+  
+  .fetch-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .fetch-button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Weather details */
+  .weather-display {
+    margin-top: 20px;
+  }
+  
+  .weather-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .weather-details {
+    text-align: left;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
