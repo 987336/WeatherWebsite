@@ -6,7 +6,7 @@ function WeatherApp() {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState(null);
-  let YourKeyHere = "YOUR_API_KEY";
+  let YourKeyHere = "6e17e4b03169d8c8397f4a3db820a350";
 
   useEffect(() => {
     // Fetch current location weather on initial load
