@@ -3,7 +3,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #4E6E8C, #6F8FAF);  /* Soft blue gradient */
+  background: linear-gradient(135deg, #95d6ea, #7bc7dd);  /* Gradient from light blue to medium blue */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@ body {
 .weather-app-container {
   width: 100%;
   max-width: 500px;
-  background: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
@@ -31,7 +31,7 @@ body {
 /* Content Card Style */
 .content-card {
   padding: 25px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.25);
   border-radius: 12px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -43,7 +43,7 @@ body {
   margin-bottom: 20px;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #fff;
 }
 
 /* Input Container */
@@ -66,7 +66,7 @@ body {
 }
 
 .city-input:focus {
-  border: 2px solid #1D9E74; /* Greenish accent on focus */
+  border: 2px solid #15719f; /* Accent on focus with your dark blue */
   outline: none;
 }
 
@@ -74,7 +74,7 @@ body {
 .fetch-button {
   padding: 12px 25px;
   margin-left: 10px;
-  background: #1D9E74; /* Green accent button */
+  background: #15719f; /* Dark blue accent button */
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -84,7 +84,7 @@ body {
 }
 
 .fetch-button:hover {
-  background-color: #158c5d; /* Darker green for hover */
+  background-color: #528ab4; /* Lighter blue for hover */
 }
 
 /* Error Message */
@@ -98,7 +98,7 @@ body {
 .weather-display {
   margin-top: 30px;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.25);
   border-radius: 12px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 }
@@ -113,14 +113,14 @@ body {
 .weather-summary h2 {
   font-size: 32px;
   margin: 0;
-  color: #ffffff;
+  color: #fff;
 }
 
 .weather-summary h3 {
   font-size: 48px;
   margin: 0;
   font-weight: bold;
-  color: #ffffff;
+  color: #fff;
 }
 
 .weather-summary p {
