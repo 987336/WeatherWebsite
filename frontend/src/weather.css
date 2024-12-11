@@ -8,14 +8,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  color: #fff;
+  color: #333; /* Dark text color for better readability */
 }
 
 /* Weather App Container */
 .weather-app-container {
   width: 100%;
   max-width: 500px;
-  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+  background: rgba(255, 255, 255, 0.9); /* Less transparent to make text clearer */
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
@@ -31,7 +31,7 @@ body {
 /* Content Card Style */
 .content-card {
   padding: 25px;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.85); /* Slightly more opaque for better contrast */
   border-radius: 12px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -43,7 +43,7 @@ body {
   margin-bottom: 20px;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #fff;
+  color: #15719f; /* Accent color for the title */
 }
 
 /* Input Container */
@@ -57,16 +57,16 @@ body {
 .city-input {
   padding: 12px;
   width: 65%;
-  border: 2px solid #fff;
+  border: 2px solid #15719f; /* Accent border */
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.3);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.9); /* Less transparency */
+  color: #333; /* Dark text for input */
   font-size: 18px;
   transition: border 0.3s;
 }
 
 .city-input:focus {
-  border: 2px solid #15719f; /* Accent on focus with your dark blue */
+  border: 2px solid #528ab4; /* Focused border changes */
   outline: none;
 }
 
@@ -98,11 +98,12 @@ body {
 .weather-display {
   margin-top: 30px;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.85); /* Slightly more opaque background for better text contrast */
   border-radius: 12px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Weather Summary */
 .weather-summary {
   display: flex;
   justify-content: space-between;
@@ -113,25 +114,25 @@ body {
 .weather-summary h2 {
   font-size: 32px;
   margin: 0;
-  color: #fff;
+  color: #333; /* Dark text for city name */
 }
 
 .weather-summary h3 {
   font-size: 48px;
   margin: 0;
   font-weight: bold;
-  color: #fff;
+  color: #333; /* Dark text for temperature */
 }
 
 .weather-summary p {
   font-size: 18px;
-  color: #d0d0d0;
+  color: #555; /* Medium dark text for description */
 }
 
 /* Weather Details */
 .weather-details {
   font-size: 16px;
-  color: #d0d0d0;
+  color: #555; /* Medium dark text for details */
   text-align: left;
 }
 
