@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  
   color: #333; /* Dark text color for better readability */
 }
 
